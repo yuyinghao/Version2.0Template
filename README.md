@@ -1,7 +1,7 @@
 # Version2Template
 **UI 2.0 模板**
 ##说明
-**请面试官在看了代码后，无论是好还是不好，无论如何给我一个答复，因为我之后将在github中删除这个项目**
+**请面试官在看了代码后，无论是好还是不好，请给我一个答复，因为我之后将在github中删除这个项目**
 ###模板的相关说明
 - 模板的主要内容在library/src/com.hitv.android.uiversion2.builder文件中
 
