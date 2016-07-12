@@ -31,4 +31,4 @@
 - 在demo/com.hitv.android.hotel.ui.activity 中的HotelAboutActivity、HotelMemberActivity、hotelSeverDetailActivity都继承了TemplateActivity来使用模板。
 
 ##效果图
-![Mou icon]() ![Mou icon]()
+![Mou icon](https://github.com/yuyinghao/Version2Template/blob/master/show1.jpg) ![Mou icon]()
