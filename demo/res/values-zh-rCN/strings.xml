@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">com.hitv.android.hotelv2</string>
+    <string name="about">介绍</string>
+    <string name="tips">注意要点</string>
+    <string name="pictures">图片</string>
+    <string name="information">信息</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/rewind_forwawrd_iv"
+        android:layout_width="@dimen/thirty_two_dp"
+        android:layout_height="@dimen/customtextview_linespacingextra"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/seven_dp"
+        android:layout_marginRight="@dimen/seek_progress_maxHeight" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/rewind_forwawrd_iv"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/video_bar_line" />
+
+        <TextView
+            android:id="@+id/dialog_Seek_Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/customtextview_linespacingextra"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/comming_up_tv_textSize" />
+    </LinearLayout>
+
+</RelativeLayout>

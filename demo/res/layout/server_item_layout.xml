@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:layout="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/server_itemsize"
+    android:layout_height="@dimen/server_itemsize"
+    android:background="@drawable/server_item_bg"
+    android:clickable="true"
+    android:focusable="true" >
+    
+    <ImageView 
+        android:id="@+id/server_item_icon"
+        android:layout_width="@dimen/server_itemimagesize"
+        android:layout_height="@dimen/server_itemimagesize"
+        android:scaleType="center"
+        android:layout_centerInParent="true"
+        />
+    
+    <com.hitv.android.uiversion2.custom.TypeTextView 
+        android:id="@+id/server_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/server_itemtextsize"
+        android:textColor="@color/color_777777"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/server_itemtextbottommargin"
+        layout:type="1"
+        />
+
+</RelativeLayout>

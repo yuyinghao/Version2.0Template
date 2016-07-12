@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pageseprate">&#160;/&#160;</string>
+    <string name="carservice">CAR SERVICE </string>
+    <string name="about">ABOUT</string>
+    <string name="tips">TIPS</string>
+    <string name="information">INFORMATION</string>
+    <string name="promotion">Promotion</string>
+    <string name="openinghours">Opening Hours</string>
+    <string name="telephone">Telephone</string>
+    <string name="address">Address</string>
+    <string name="louceng">F</string>
+    <string name="gongli">km</string>
+    <string name="mi">m</string>
+    <string name="destinations">DESTINATIONS</string>
+    <string name="pictures">PICTURES</string>
+    <string name="patners">PARTNERS</string>
+    <string name="xinghao">*</string>
+    <string name="scanansave">Scan and Save into Your Phone</string>
+    <string name="bottom_press">press</string>
+    <string name="bottom_info_1">back button exit</string>
+    <string name="bottom_info_2">back button background play</string>
+    
+    <string name="separator ">/</string>
+    <string name="separate"> / </string>
+    <string name="init_time">00:00</string>
+    <string name="unknow_time"></string>
+    
+    <string name="press">press</string>
+    <string name="press_info">to resume</string>
+    
+    <string name="loading_notice">Loading...</string>
+    <string name="loading_notice_second">Coming Up:</string>
+    <string name="toast_press">press</string>
+    <string name="toast_press_back">again to return to previous screen</string>
+    <string name="qr_info">view details</string>
+    
+    <string name="an">Press</string>
+    <string name="ssss">s</string>
+    <string name="tosave">to Save</string>
+    <string name="toviewmore">to View More</string>
+    <string name="recommendedtime">Recommended Time：</string>
+    <string name="routeintroduction">Route introduction</string>
+    
+    <string name="jianchakanxiangqing">to view more</string>
+    <string name="jianhuidaodingbu">back to top</string>
+
+</resources>

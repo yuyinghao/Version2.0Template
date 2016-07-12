@@ -1,0 +1,1 @@
+package com.hitv.android.uiversion2.process;import android.view.View;import java.util.HashMap;import java.util.Map;public class FocusProcessor {	public static final int OTHER_FOCUSE_VIEW = 0x0001;	public static Map<Integer, View> focusCache = new HashMap<Integer, View>();}

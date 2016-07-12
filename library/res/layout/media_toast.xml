@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_round"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/customtextview_linespacingextra"
+    android:paddingLeft="@dimen/listmain_righticon_marginRight"
+    android:paddingRight="@dimen/listmain_righticon_marginRight"
+    android:paddingTop="@dimen/customtextview_linespacingextra" >
+
+    <TextView
+        android:id="@+id/back_toast_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toast_press"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/comming_up_tv_textSize" />
+
+    <ImageView
+        android:layout_width="@dimen/forty_two_dp"
+        android:layout_height="@dimen/forty_two_dp"
+        android:layout_marginLeft="@dimen/seek_progress_maxHeight"
+        android:layout_marginRight="@dimen/seek_progress_maxHeight"
+        android:src="@drawable/toast_icon" />
+
+    <TextView
+        android:id="@+id/back_toast_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toast_press_back"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/comming_up_tv_textSize" />
+
+</LinearLayout>

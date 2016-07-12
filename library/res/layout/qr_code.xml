@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_2" >
+
+    <ImageView 
+        android:id="@+id/qrcode_image"
+        android:layout_width="464dp"
+        android:layout_height="464dp"
+        android:scaleType="center"
+        android:layout_marginTop="330dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
+        />
+    
+    <com.hitv.android.uiversion2.custom.TypeTextView 
+        android:id="@+id/qrcode_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/qrcode_image"
+        android:layout_marginTop="38dp"
+        android:text="@string/scanansave"
+        android:textSize="30dp"
+        android:textColor="@color/color_ECECEC"
+        android:layout_centerHorizontal="true"
+        />
+    
+</RelativeLayout>

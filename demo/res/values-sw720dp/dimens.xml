@@ -1,0 +1,17 @@
+<resources>
+
+    <dimen name="server_margintop">266.7dp</dimen>
+    <dimen name="server_marginleft">66.7dp</dimen>
+    <dimen name="server_itemmargin">13.3dp</dimen>
+    
+    <dimen name="server_itemsize">213.3dp</dimen>
+    <dimen name="server_itemimagesize">100dp</dimen>
+    <dimen name="server_itemtextsize">20dp</dimen>
+    <dimen name="server_itemtextbottommargin">16dp</dimen>
+    
+    <dimen name="dining_topheight">80dp</dimen>
+    <dimen name="dining_topbuttonpaddingleft">18dp</dimen>
+    <dimen name="dining_topbuttonpaddingtop">8dp</dimen>
+    <dimen name="dining_topBUttonitemmargin">16dp</dimen>
+    <dimen name="dining_contentpaddingtop">34dp</dimen>
+</resources>

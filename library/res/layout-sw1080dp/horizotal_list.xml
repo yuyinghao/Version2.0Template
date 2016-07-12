@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:layout="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:orientation="vertical"
+        android:visibility="gone" >
+
+    <LinearLayout
+        android:id="@+id/horizontal_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:layout_marginLeft="362dp"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <com.hitv.android.uiversion2.custom.TypeTextView
+            android:id="@+id/horizontal_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:includeFontPadding="false"
+            android:textColor="@color/color_43474A"
+            android:textSize="30dp" />
+
+        <com.hitv.android.uiversion2.custom.TypeTextView
+            android:id="@+id/horizontal_num"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/image_num_bg"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="@color/color_252525"
+            android:textSize="26dp" />
+    </LinearLayout>
+    
+        
+    <com.hitv.android.uiversion2.custom.HorizontalList
+        android:id="@+id/horizontal_list"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        ></com.hitv.android.uiversion2.custom.HorizontalList>
+
+</LinearLayout>

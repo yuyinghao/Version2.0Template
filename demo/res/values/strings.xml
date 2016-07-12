@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">com.hitv.android.hotelv2</string>
+    <string name="aboutmembership">ABOUT MEMBERSHIP</string>
+    <string name="joinus">JOIN US</string>
+    <string name="about">ABOUT</string>
+    <string name="tips">TIPS</string>
+    <string name="pictures">PICTURES</string>
+    <string name="information">INFORMATION</string>
+
+</resources>

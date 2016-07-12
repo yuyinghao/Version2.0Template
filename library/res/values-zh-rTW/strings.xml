@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="exit">退出</string>
+    <string name="bottom_press">按</string>
+    <string name="bottom_info_1">返回鍵退出</string>
+    <string name="bottom_info_2">返回鍵背景播放</string>
+    
+    <string name="press">按</string>
+    <string name="press_info">繼續播放</string>
+	
+    <string name="loading_notice">努力鏈接中...</string>
+    <string name="loading_notice_second">即將播放：</string>
+    <string name="toast_press">再次按</string>
+    <string name="toast_press_back">返回</string>
+    <string name="qr_info">鍵查看詳情</string>
+    
+    <string name="carservice">打車 </string>
+    <string name="about">景點介紹</string>
+    <string name="tips">注意事項</string>
+    <string name="information">景點資訊</string>
+    <string name="promotion">折扣</string>
+    <string name="openinghours">營業時間</string>
+    <string name="telephone">電話</string>
+    <string name="address">地址</string>
+    <string name="destinations">景點</string>
+    <string name="pictures">景點圖片</string>
+    <string name="patners">合作夥伴</string>
+    
+    <string name="an">按</string>
+    <string name="tosave">喜歡</string>
+    <string name="toviewmore">查看更多</string>
+    <string name="recommendedtime">遊玩時間：</string>
+    <string name="routeintroduction">路線介紹</string>
+    
+    <string name="jianchakanxiangqing">鍵查看詳情</string>
+    <string name="jianhuidaodingbu">鍵回到頂部</string>
+    
+</resources>

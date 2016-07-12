@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="mProgress_circle">
+        <item name="android:indeterminateDrawable">@drawable/anim_loading</item>
+        <item name="android:minWidth">93dp</item>
+        <item name="android:minHeight">93dp</item>
+        <item name="android:maxWidth">93dp</item>
+        <item name="android:maxHeight">93dp</item>
+    </style>
+</resources>

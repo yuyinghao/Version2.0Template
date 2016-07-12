@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:layout="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.hitv.android.uiversion2.custom.TypeTextView
+        android:id="@+id/destination_title"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/color_777777"
+        android:textSize="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        layout:type="1" />
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/item_bg" >
+
+        <!-- <com.hitv.android.uiversion2.custom.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            android:src="@drawable/item_bg"
+            layout:riv_corner_radius="10dip"
+            layout:riv_mutate_background="true"
+            layout:riv_oval="false" /> -->
+            
+        <com.hitv.android.uiversion2.custom.TypeTextView 
+            android:id="@+id/destination_recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:textColor="@color/color_ECECEC"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+        	layout:type="1"
+            />
+        
+        <com.hitv.android.uiversion2.custom.TypeTextView 
+            android:id="@+id/destination_sugest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/destination_recommend"
+            android:textSize="26dp"
+            android:textColor="@color/color_ECECEC"
+            android:layout_marginLeft="25dp"
+        	layout:type="1"
+            />
+        
+        <com.hitv.android.uiversion2.custom.RoundedImageView
+            android:id="@+id/destination_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="center"
+            layout:riv_corner_radius="8dp"
+            layout:riv_mutate_background="true"
+            layout:riv_oval="false" />
+    </RelativeLayout>
+
+</LinearLayout>

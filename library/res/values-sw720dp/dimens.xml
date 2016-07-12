@@ -1,0 +1,81 @@
+<resources>
+
+    <dimen name="COMPOUNDDRAWABLEPADDING">13dp</dimen>
+    <dimen name="SERVICEBUTTONMARGINRIGHT">13dp</dimen>
+    <dimen name="CONTENTMARGINBOTTOM">66.7dp</dimen>
+    <dimen name="MARGINLEFT">241dp</dimen>
+    <dimen name="CONTENTWIDTH">797dp</dimen>
+    <dimen name="buttongpadding">17dp</dimen>
+    <dimen name="buttontextsize">20px</dimen>
+    <dimen name="buttonheight">53dp</dimen>
+    <dimen name="partnermargin">33dp</dimen>
+    <dimen name="partnersize">80dp</dimen>
+    <dimen name="titleiconmargin">243dp</dimen>
+    <dimen name="ratingmargin">6.7dp</dimen>
+    <dimen name="labeltextsize">17px</dimen>
+    <dimen name="labelmargin">13dp</dimen>
+    <dimen name="slidelayoutheight">1305dp</dimen>
+    <dimen name="itemwidth">241dp</dimen>
+	<dimen name="qrwidth">360dp</dimen>
+    
+    <dimen name="mRlContent_with">353.3dp</dimen>
+    <dimen name="mRlContent_height">533.3dp</dimen>
+    <dimen name="mRlContent_marginLeft">754.7dp</dimen>
+    <dimen name="mRlContent_marginTop">138dp</dimen>
+    <dimen name="mRlContent_paddingLeft">55dp</dimen>
+    <dimen name="mRlContent_paddingRight">13.3dp</dimen>
+    <dimen name="scroll_view_marginTop">33.3dp</dimen>
+    <dimen name="scroll_view_height">346.7dp</dimen>
+    <dimen name="customtextview_width">286.7dp</dimen>
+    <dimen name="customtextview_height">346.7dp</dimen>
+    <dimen name="customtextview_linespacingextra">13.3dp</dimen>
+    <dimen name="customtextview_textSize">17.3sp</dimen>
+    <dimen name="activity_main_lefticon_marginLeft">26.7dp</dimen>
+    <dimen name="activity_main_righticon_marginRight">26.7dp</dimen>
+    <dimen name="listmain_lefticon_marginLeft">20dp</dimen>
+    <dimen name="listmain_righticon_marginRight">20dp</dimen>
+    <dimen name="relativelayout_height">60dp</dimen>
+    <dimen name="relativelayout_marginTop">14dp</dimen>
+    <dimen name="progressbar_width">93.3dp</dimen>
+    <dimen name="progressbar_height">93.3dp</dimen>
+    <dimen name="notice_tv_marginTop">40dp</dimen>
+    <dimen name="notice_tv_textSize">20sp</dimen>
+    <dimen name="linearlayout_marginTop">40dp</dimen>
+    <dimen name="comming_up_tv_textSize">20sp</dimen>
+    <dimen name="seek_progress_maxHeight">6.7dp</dimen>
+    <dimen name="qr_logo_iv_height">34.7dp</dimen>
+    <dimen name="qr_title_width">186.7dp</dimen>
+    <dimen name="qr_title_textsize">26.7sp</dimen>
+    <dimen name="three_hundred_dp">133.3dp</dimen>
+    <dimen name="sixteen_dp">10.7dp</dimen>
+    <dimen name="sixty_dp">40dp</dimen>
+    <dimen name="one_hundred_thirty_dp">86.7dp</dimen>
+    <dimen name="fifty_dp">33.3dp</dimen>
+    <dimen name="three_dp">2dp</dimen>
+    <dimen name="forty_eight_dp">32dp</dimen>
+    <dimen name="seventeen_dp">11.3dp</dimen>
+    <dimen name="ninety_three_dp">62dp</dimen>
+    <dimen name="fifteen_dp">10dp</dimen>
+    <dimen name="forty_two_dp">28dp</dimen>
+    <dimen name="one_thousand_six_hundred_forty_dp">1093.3dp</dimen>
+    <dimen name="seven_hundred_nineteen_dp">479.3dp</dimen>
+    <dimen name="thirty_two_dp">21.3dp</dimen>
+    <dimen name="seven_dp">4.7dp</dimen>
+    
+    <dimen name="forty_one_dp">27.3dp</dimen>
+    <dimen name="forty_dian_eight_dp">27dp</dimen>
+
+    <dimen name="tip_pop_width">296dp</dimen>
+    <dimen name="tip_pop_height">110dp</dimen>
+    <dimen name="tip_pop_margin">26.7dp</dimen>
+    
+    <dimen name="video_15_px">10dp</dimen>
+    <dimen name="video_20_px">13.3dp</dimen>
+    <dimen name="video_30_px">20dp</dimen>
+    <dimen name="video_42_px">28dp</dimen>
+    <dimen name="video_10_px">6.7dp</dimen>
+    
+    <dimen name="banner_jiao_size">113.3dp</dimen>
+    <dimen name="banner_textsize">24dp</dimen>
+    <dimen name="banner_textmargin">20dp</dimen>
+</resources>

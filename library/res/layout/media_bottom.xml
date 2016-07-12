@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical" >
+
+    <com.sinera.android.media.ui.model.ProgressSeekBar
+        android:id="@+id/seek_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:maxHeight="@dimen/seek_progress_maxHeight"
+        android:minHeight="@dimen/seek_progress_maxHeight"
+        android:progressDrawable="@drawable/seekbar_style"
+        android:thumb="@drawable/meida_thumb_style"
+        android:thumbOffset="0px" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/relativelayout_marginTop" >
+
+        <TextView
+            android:id="@+id/current_Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/comming_up_tv_textSize" />
+
+        <TextView
+            android:id="@+id/duration_Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:textColor="#7FFFFFFF"
+            android:textSize="@dimen/comming_up_tv_textSize" />
+    </RelativeLayout>
+
+</LinearLayout>

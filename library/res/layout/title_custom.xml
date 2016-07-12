@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:layout="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="877dp">
+    
+    <RelativeLayout 
+        android:id="@+id/titleicon"
+        android:layout_width="match_parent"
+        android:layout_height="670dp"
+        android:clipChildren="false"
+        android:layout_marginBottom="90dp"
+        ></RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/title_lefticon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="516dp"
+        android:src="@drawable/arrow_1"
+        />
+    
+    <ImageView 
+        android:id="@+id/title_righticon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="516dp"
+        android:src="@drawable/arrow_2"
+        />
+    
+    <RelativeLayout 
+        android:id="@+id/titledetail"
+        android:layout_width="1192dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="bottom"
+        android:layout_marginBottom="7dp"
+        android:layout_below="@id/titleicon"
+        >
+        <com.hitv.android.uiversion2.custom.TypeTextView
+            android:id="@+id/titletext"
+            android:layout_width="850dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="50dp"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/color_ECECEC"
+            android:layout_centerVertical="true"
+            layout:type="1"/>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            >
+            <LinearLayout 
+                android:id="@+id/ratinglayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="54dp"
+                ></LinearLayout>
+            <com.hitv.android.uiversion2.custom.TypeTextView
+                android:id="@+id/pagecurrentpage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/color_ECECEC" 
+                layout:nochange="true"
+                layout:type="0"
+                />
+            <com.hitv.android.uiversion2.custom.TypeTextView
+                android:id="@+id/pageseprate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/color_ECECEC" 
+                android:text="@string/pageseprate"
+                layout:nochange="true"
+                layout:type="0"
+                />
+            <com.hitv.android.uiversion2.custom.TypeTextView 
+                android:id="@+id/pagetotalpage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="@color/color_ECECEC"
+                layout:nochange="true"
+                layout:type="0"
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+    
+    <com.hitv.android.uiversion2.custom.FlowLayout 
+        android:id="@+id/specaillayout"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/titledetail"
+        android:layout_marginLeft="363dp"
+        ></com.hitv.android.uiversion2.custom.FlowLayout>
+
+</RelativeLayout>

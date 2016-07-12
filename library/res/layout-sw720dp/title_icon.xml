@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:layout="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/title_icon_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:layout_width="113dp"
+        android:layout_height="113dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/collect_bg" >
+
+        <com.hitv.android.uiversion2.custom.TypeTextView
+            android:id="@+id/title_icon_heatindex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="9.3dp"
+            android:layout_marginRight="13.3dp"
+            android:textColor="@color/color_65625D"
+            android:textSize="20dp"
+            layout:type="1" />
+
+        <View
+            android:id="@+id/title_icon_heart"
+            android:layout_width="23.3dp"
+            android:layout_height="21.3dp"
+            android:layout_above="@id/title_icon_heatindex"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5.3dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/collect_heart" />
+    </RelativeLayout>
+
+</RelativeLayout>

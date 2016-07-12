@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_round"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/seek_progress_maxHeight"
+    android:paddingLeft="@dimen/mRlContent_paddingRight"
+    android:paddingRight="@dimen/mRlContent_paddingRight"
+    android:paddingTop="@dimen/seek_progress_maxHeight"
+    android:visibility="visible" >
+
+    <ImageView
+        android:id="@+id/qr_logo_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/qr_logo_iv_height" />
+
+    <TextView
+        android:id="@+id/qr_title"
+        android:layout_width="@dimen/qr_title_width"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/white"
+        android:textSize="@dimen/qr_title_textsize" />
+
+    <ImageView
+        android:id="@+id/qr_info_image"
+        android:layout_width="@dimen/qr_title_width"
+        android:layout_height="@dimen/qr_title_width"
+        android:layout_marginTop="@dimen/seek_progress_maxHeight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/seek_progress_maxHeight"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/press_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/seek_progress_maxHeight"
+            android:text="@string/press"
+            android:textColor="@color/white"
+            android:textSize="@dimen/comming_up_tv_textSize" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/seek_progress_maxHeight"
+            android:src="@drawable/qr_2_icon" />
+
+        <TextView
+            android:id="@+id/press_tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qr_info"
+            android:textColor="@color/white"
+            android:textSize="@dimen/comming_up_tv_textSize" />
+    </LinearLayout>
+
+</LinearLayout>
