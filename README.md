@@ -29,3 +29,6 @@
 - 项目中使用模板的类主要是demo/com.hitv.android.hotel.ui.activity.TemplateActivity和demo/com.hitv.android.hotel.ui.fragment.DiningFoodFragment这两个。
 
 - 在demo/com.hitv.android.hotel.ui.activity 中的HotelAboutActivity、HotelMemberActivity、hotelSeverDetailActivity都继承了TemplateActivity来使用模板。
+
+##效果图
+![Mou icon]() ![Mou icon]()
